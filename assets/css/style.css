@@ -1,0 +1,115 @@
+*{
+    font-family: 'Catamaran', sans-serif;
+
+}
+.main-navbar .navbar{
+    font-size: 12px;
+    align-items: center;
+    background-color: gainsboro;
+    
+}
+.top-logo{
+    display: flex;
+    
+}
+.top-logo li a i{
+    padding: 10px;
+
+}
+.nav-item a{
+    padding-left: 10px;
+    padding-right:10px ;
+    align-items: center;
+    
+}
+.icons span{
+    align-items: center;
+    padding-left: 10px;
+    padding-right:10px ;
+    color: black;
+}
+.first-slider .carousel-inner .carousel-item{
+    position: relative;
+
+}
+.first-slider .carousel-inner .carousel-item .INFO{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+
+}
+.carousel-item .INFO a{
+    text-decoration: none;
+    color:white;
+    background-color:cadetblue ;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 10px;
+
+}
+.benifits {  
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.benifits h3{
+    font-size: medium;
+    display: inline;
+}
+.top-cards h2{
+    font-size: 22px;
+}
+.top-cards p{
+    font-size: 10px;
+}
+.card {
+    position: relative;
+    border:none;
+}
+.overlay-1{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+.overlay-2{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+.overlay-1 p{
+    color: white;
+    background-color: red;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 3px;
+
+
+}
+.overlay-2 p{
+    color: white;
+    background-color:grey;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 3px;
+
+
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 0;
+    color: var(--bs-card-color);
+}
+.card-body a{
+    text-decoration: none;
+    border: 3px;
+    border-radius: 3px solid;
+    color: black;
+}
+.card-body a p{
+    display: inline;
+    padding: 5px;
+    font-size: 13px;
+}
