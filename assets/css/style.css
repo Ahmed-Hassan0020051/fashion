@@ -110,6 +110,10 @@
 }
 .card-body a p{
     display: inline;
-    padding: 5px;
-    font-size: 13px;
+    padding-top:  2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px; 
+    font-size: 12px;
+    border: 1px solid;
 }
