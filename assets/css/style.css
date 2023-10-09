@@ -5,7 +5,7 @@
 .main-navbar .navbar{
     font-size: 12px;
     align-items: center;
-    background-color: gainsboro;
+    background-color: rgba(236,245,244,255);
     
 }
 .top-logo{
@@ -42,7 +42,8 @@
 .carousel-item .INFO a{
     text-decoration: none;
     color:white;
-    background-color:cadetblue ;
+    background-color: blueviolet;
+    
     padding: 12px;
     border-radius: 20px;
     font-size: 10px;
@@ -102,6 +103,9 @@
     padding: 0;
     color: var(--bs-card-color);
 }
+.bx{
+    color: yellow;
+}
 .card-body a{
     text-decoration: none;
     border: 3px;
@@ -111,9 +115,81 @@
 .card-body a p{
     display: inline;
     padding-top:  2px;
-    padding-bottom: 2px;
     padding-left: 4px;
     padding-right: 4px; 
     font-size: 12px;
     border: 1px solid;
+}
+a .card-text {
+    text-decoration: line-through;
+    font-size: 13px;
+
+}
+.hero-2{
+    position: relative;
+}
+.hero-2 img.bg-1{
+    width: 100%;
+
+}
+.hero-2 img.bg-2{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+
+}
+
+.hero-2 img.bg-3{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+
+}
+.hero-2-content{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+
+.hero-2-content h4{
+    display: inline;
+}
+.hero-2-content h5{
+    display: inline;
+    text-decoration: line-through;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.hero-2-content a{
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-left: 5px;
+    background-color: grey;
+    color: white;
+    border-radius: 40px;
+}
+#clockdiv{
+    display: flex;
+}
+.wrapper{
+    background: white;
+    color: black;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
 }
