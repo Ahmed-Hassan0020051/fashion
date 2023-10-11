@@ -169,6 +169,13 @@ a .card-text {
     background-color:rgba(236,245,244,255);
     position: relative;
 }
+.item-1 img.gbg-1 {
+    width: 72%;
+    position: absolute;
+    top: 58%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
 .item-1 img {
     width: 42%;
     position: absolute;
@@ -195,6 +202,13 @@ a .card-text {
     grid-column-start: 2;
     position: relative;
 }
+.item-2 img.gbg-1 {
+    width: 90%;
+    position: absolute;
+    top: 69%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+}
 .item-2 img {
     width: 80%;
     position: absolute;
@@ -218,6 +232,13 @@ a .card-text {
 .item-3{
     background-color:rgba(236,245,244,255);
     position: relative;
+}
+.item-3 img.gbg-1 {
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 85%;
+    transform: translate(-50%,-50%);
 }
 .item-3 img {
     width: 45%;
@@ -245,6 +266,13 @@ a .card-text {
     grid-column-start: 1;
     position: relative;
 }
+.item-4 img.gbg-1 {
+    width: 60%;
+    position: absolute;
+    top: 42%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
 .item-4 img {
     width: 50%;
     position: absolute;
@@ -267,6 +295,13 @@ a .card-text {
     background-color:rgba(236,245,244,255);
     position: relative;
     grid-row-start:3 ;
+}
+.item-5 img.gbg-1 {
+    width: 60%;
+    position: absolute;
+    top: 85%;
+    left: 78%;
+    transform: translate(-50%,-50%);
 }
 .item-5 img {
     width: 60%;
@@ -292,6 +327,13 @@ a .card-text {
     grid-row-end: 5;
     grid-column-start: 3;
     position: relative;
+}
+.item-6 img.gbg-1 {
+    width: 65%;
+    position: absolute;
+    top: 68%;
+    left: 53%;
+    transform: translate(-50%,-50%);
 }
 .item-6 img {
     width: 65%;
