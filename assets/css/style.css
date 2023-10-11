@@ -152,7 +152,6 @@ a .card-text {
 .grid-1 .container{
     margin-top: 25px;
     height: 800px;
-    width: 800px;
     display: grid;
     grid-template-rows:repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
@@ -170,11 +169,11 @@ a .card-text {
     background-color:rgba(236,245,244,255);
     position: relative;
 }
-.item-1 img{
-    width:56%;
+.item-1 img {
+    width: 42%;
     position: absolute;
-    top: 52%;
-    left: 66%;
+    top: 48%;
+    left: 70%;
     transform: translate(-50%,-50%);
 }
 .item-1 .img1-overlay{
@@ -197,9 +196,9 @@ a .card-text {
     position: relative;
 }
 .item-2 img {
-    width: 89%;
+    width: 80%;
     position: absolute;
-    top: 75%;
+    top: 69%;
     left: 53%;
     transform: translate(-50%,-50%);
 }
@@ -221,10 +220,10 @@ a .card-text {
     position: relative;
 }
 .item-3 img {
-    width: 58%;
+    width: 45%;
     position: absolute;
-    top: 55%;
-    left: 72%;
+    top: 49%;
+    left: 77%;
     transform: translate(-50%,-50%);
 }
 .item-3 .img3-overlay {
@@ -247,9 +246,9 @@ a .card-text {
     position: relative;
 }
 .item-4 img {
-    width: 65%;
+    width: 50%;
     position: absolute;
-    top: 28%;
+    top: 31%;
     left: 53%;
     transform: translate(-50%,-50%);
 }
