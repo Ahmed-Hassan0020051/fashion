@@ -128,7 +128,7 @@
     color: var(--bs-card-color);
 }
 .bx{
-    color: yellow;
+    color: goldenrod;
 }
 .card-body a{
     text-decoration: none;
@@ -457,4 +457,161 @@ a .card-text {
     margin-top: 4px;
     font-size: 15px;
     text-align: center;
+}
+.grid-2{
+    margin-top: 50px;
+}
+.grid-2 .grid-2-1 .card {
+    position: relative;
+}
+.grid-2 .grid-2-1 .card  .card-body{
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.grid-2 .grid-2-1 .card  .card-body p{
+font-size: 12px;
+}
+.grid-2 .grid-2-2 .card{
+    border: 1px solid ;
+    padding: 20px;
+    padding-bottom: 75px;
+}
+.grid-2 .grid-2-2 .card .card-body p.card-text{
+   font-size: 12px;
+    
+}
+.grid-2 .grid-2-2 .card .card-body a{
+    text-decoration: none;
+    color: black;
+    
+}
+.bottom-cards{
+    margin-top: 75px;
+}
+.bottom-cards h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+.hero-3{
+    position: relative;
+
+} 
+.hero-3 img{
+    width: 100%;
+
+} 
+.hero-3 .hero-3-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-3 .hero-3-content h1{
+    font-size: 120px;
+}
+.hero-3 .hero-3-content p{
+    font-size: 50px;
+    text-align: center;
+}
+.shop-main-cards{
+    margin-bottom: 30px;
+}
+.shop-main-cards .card{
+    margin-bottom: 20px;
+}
+.shop-main-cards .shop-main-cards-info{
+    margin-top: 20px;
+}
+.shop-main-cards .shop-main-cards-info p{
+   display: inline;
+}
+.shop-main-cards .shop-main-cards-info a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+.shop-main-cards .shop-main-cards-info h5.one{
+    display: inline;
+    margin-left: 200px;
+    margin-right: 10px;
+}
+ .shop-main-cards .shop-main-cards-info h5{
+    display: inline;
+    margin-right: 10px;
+}
+.shop-main-cards .shop-main-cards-info .card{
+    margin-bottom:15px ;
+}
+.shop-main-cards .shop-main-cards-info p.two{
+     margin-left: 240px;
+    display: inline;
+ }
+ .shop-main-cards .shop-main-cards-info p.two i{
+   display: inline;
+}
+.bottom-button a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    margin-left: 500px;
+    border: 1px solid;
+    border-radius: 50px;
 }
