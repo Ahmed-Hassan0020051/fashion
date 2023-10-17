@@ -1,17 +1,35 @@
-$(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
-        
-        loop:true,
-        margin:10,
-        nav:false,
-        dots:true,
-        items:4,
-        autoplay:true,
-        autoplayTimeout:2000,
-        
-        
-    })
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:true,
+          autoplay:true,
+          autoplayTimeout:2500,
+          autoplayHoverPause:true,
+          dots:true
+      },
+      600:{
+          items:2,
+          nav:true,
+          autoplay:true,
+          autoplayTimeout:2500,
+          autoplayHoverPause:true,
+          dots:true
 
+      },
+      1000:{
+          items:4,
+          nav:true,
+          autoplay:true,
+          autoplayTimeout:2500,
+          autoplayHoverPause:true,
+          dots:true
+
+      }
+  }
 })
 function getTimeRemaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date());
