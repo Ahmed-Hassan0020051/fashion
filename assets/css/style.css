@@ -17,6 +17,7 @@
 }
 .top-logo li a i{
     padding: 10px;
+    color: blue;
 
 }
 .nav-item a{
@@ -58,7 +59,7 @@
 .hero-1-content{
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 27%;
     transform: translate(-50%,-50%);
 }
 .hero-1-content a{
@@ -607,11 +608,144 @@ font-size: 12px;
  .shop-main-cards .shop-main-cards-info p.two i{
    display: inline;
 }
-.bottom-button a{
+.bottom-button{
+    text-align: center;
+
+}
+.bottom-button a {
     text-decoration: none;
     color: black;
     padding: 8px;
-    margin-left: 500px;
     border: 1px solid;
     border-radius: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:575px) {
+    .shop-main-cards .shop-main-cards-info p.two {
+        
+        display: none;
+    }
+    .shop-main-cards .shop-main-cards-info a  {
+        font-size: 5px;
+
+    }
+    .shop-main-cards .shop-main-cards-info h5.one {
+        display: inline;
+        margin-left: 11px;
+        margin-right: 10px;
+        font-size: 5px;
+    }
+    .hero-3 .hero-3-content {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .hero-3 .hero-3-content h1 {
+        font-size: 57px;
+        text-align: center;
+    }
+    .hero-3 .hero-3-content p{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .shop-main-cards .shop-main-cards-info p.two {
+        
+        display: none;
+    }
+.shop-main-cards .shop-main-cards-info h5.one {
+    display: inline;
+    margin-left: 14px;
+    margin-right: 10px;
+}
+    .hero-3 .hero-3-content {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .hero-3 .hero-3-content h1 {
+        font-size: 95px;
+        text-align: center;
+    }
+    
+    
+}
+@media screen and (min-width:769px) and (max-width:991px) {
+.shop-main-cards .shop-main-cards-info p.two {
+    margin-left: -417px;
+    display: inline; 
+}
+    .hero-3 .hero-3-content {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .hero-3 .hero-3-content h1 {
+        font-size: 95px;
+        text-align: center;
+    }
+    .hero-3 .hero-3-content p{
+        font-size: 50px;
+        text-align: center;
+    }
+    
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .shop-main-cards .shop-main-cards-info p.two {
+        margin-left: 58px;
+        display: inline;
+    }
+    .hero-3 .hero-3-content {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .hero-3 .hero-3-content h1 {
+        font-size: 95px;
+        text-align: center;
+    }
+    .hero-3 .hero-3-content p{
+        font-size: 50px;
+        text-align: center;
+    }
+    
 }
